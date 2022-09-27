@@ -1,6 +1,6 @@
 {
   "name": "jutkey-wallet",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "An Electron application with Vue and TypeScript",
   "main": "./out/main/index.js",
   "author": "example.com",
@@ -22,22 +22,22 @@
     "productName": "Jutkey Wallet",
     "appId": "XXX",
     "mac": {
-      "icon": "./build/icon.icns"
+      "icon": "./build/icons/icon.icns"
     },
     "win": {
-      "icon": "./build/icon.ico"
+      "icon": "./build/icons/icon.ico"
     },
     "linux": {
-      "icon": "./build/icon.ico"
+      "icon": "./build/icons/icon.ico"
     },
     "nsis": {
       "oneClick": false,
       "perMachine": true,
       "allowElevation": true,
       "allowToChangeInstallationDirectory": true,
-      "installerIcon": "./build/icon.ico",
-      "uninstallerIcon": "./build/icon.ico",
-      "installerHeaderIcon": "./build/icon.ico",
+      "installerIcon": "./build/icons/icon.ico",
+      "uninstallerIcon": "./build/icons/icon.ico",
+      "installerHeaderIcon": "./build/icons/icon.ico",
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
       "shortcutName": "Jutkey Wallet"

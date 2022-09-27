@@ -2,7 +2,9 @@
 import { reactive } from 'vue';
 import isElectron from 'is-electron';
 
-const versions: any = isElectron() ? reactive({ ...window.electron.process.versions }) : '';
+const versions: any = isElectron()
+  ? reactive({ ...window.electron.process.versions })
+  : '';
 </script>
 
 <template>

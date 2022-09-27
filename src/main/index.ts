@@ -10,7 +10,7 @@ function createWindow(): void {
     show: false,
     autoHideMenuBar: true,
     // eslint-disable-next-line no-undef
-    icon: path.join(__dirname, '../../icon/icons/icon.ico'),
+    icon: path.join(__dirname, '../../build/icons/icon.ico'),
     /* ...(process.platform === 'linux'
       ? {
           // eslint-disable-next-line no-undef
@@ -22,10 +22,11 @@ function createWindow(): void {
       sandbox: false
     }
   });
-  /*  if (process.platform === 'darwin') {
+  console.log(process.platform);
+  if (process.platform === 'darwin') {
     // eslint-disable-next-line no-undef
-    app.dock.setIcon(`${__static}/icon/icons/512x512.png`);
-  } */
+    app.dock.setIcon('../../build/icons/512x512.png');
+  }
   mainWindow.on('ready-to-show', () => {
     mainWindow.show();
   });
