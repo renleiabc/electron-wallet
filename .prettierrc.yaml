@@ -1,0 +1,10 @@
+singleQuote: true
+semi: true
+trailingComma: none
+endOfLine: auto
+overrides: [{ 'files': '*.html', 'options': { 'parser': 'html' } }]
+bracketSpacing: true
+vueIndentScriptAndStyle: false
+jsxBracketSameLine: true
+htmlWhitespaceSensitivity: ignore
+wrapAttributes: true
