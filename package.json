@@ -20,8 +20,12 @@
   },
   "build": {
     "productName": "Jutkey Wallet",
-    "appId": "XXX",
+    "appId": "com.jutkey.wallet",
     "mac": {
+      "hardenedRuntime": true,
+      "gatekeeperAssess": false,
+      "entitlements": "./build/entitlements.mac.plist",
+      "entitlementsInherit": "./build/entitlements.mac.plist",
       "icon": "./build/icons/icon.icns"
     },
     "win": {
